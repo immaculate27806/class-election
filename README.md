@@ -13,11 +13,11 @@ Banner: Winner: Keza or Tie between Keza and Mutoni (4 votes each)
 Candidates screen: add (no empty/duplicate names), remove only if 0 votes
 Reset with an "Are you sure?" dialog
 Empty-state messages when there are no candidates
-Screenshots
-Vote screen: screenshots/vote.png
-Results with a winner: screenshots/results-winner.png
-Results with a tie: screenshots/results-tie.png
-Candidates screen: screenshots/candidates.png
+## Screenshots
+![Vote screen](screenshots/vote.png)
+![Results with a winner](screenshots/results-winner.png)
+![Results with a tie](screenshots/results-tie.png)
+![Candidates screen](screenshots/candidates.png)
 Think questions
 1. Why must names be cleaned before they are compared? Because aline, ALINE and Aline look different to the computer even though they are the same person. If I compared first, Aline could vote three times, or "keza" could be added as a second candidate next to "Keza". Cleaning first makes them all Aline.
 
