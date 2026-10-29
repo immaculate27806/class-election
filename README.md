@@ -1,6 +1,15 @@
 # Ijwi Class Vote — Class Election App
 
-A Flutter app for running a class election, built for Mobile Programming Week 3 Session 6.
+**Student:** Immaculate MUTARUTWA  
+**ID:** 27806  
+**Group:** A  
+**Course:** Mobile Programming — Week 3, Session 6 (Firebase)
+
+---
+
+## About
+
+A Flutter app for running a class election. Users create an account, log in, vote for candidates, and see live results. All data is stored in Firebase Firestore and is private to each user.
 
 ## Features
 
