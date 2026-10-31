@@ -1,58 +1,16 @@
-# Ijwi Class Vote — Class Election App
+# Ijwi Class Vote
 
 **Student:** Immaculate MUTARUTWA  
 **ID:** 27806  
 **Group:** A  
-**Course:** Mobile Programming — Week 3, Session 6 (Firebase)
+**Course:** Mobile Programming — Week 3, Session 6
 
----
-
-## About
-
-A Flutter app for running a class election. Users create an account, log in, vote for candidates, and see live results. All data is stored in Firebase Firestore and is private to each user.
-
-## Features
-
-### Session 4 (original)
-- Vote for candidates by name
-- Live results with progress bars and winner/tie banner
-- Add and remove candidates
-- Duplicate voter detection
-
-### Session 6 — Firebase (this submission)
-- **Authentication** — create account, log in, log out with email and password
-- **Firestore** — all candidates and votes saved in the cloud under each user's private path
-- **Live updates** — results update instantly without refreshing, using StreamBuilder
-- **Private data** — Firestore security rules ensure each user only sees their own data
-- **Sample data** — new accounts start with 3 sample candidates (Keza, Mutoni, Ishimwe)
-- **Loading, error and empty states** on every screen
-
-## Firestore structure
-
-```
-users/
-  {uid}/
-    candidates/   ← name, votes
-    voters/       ← name, votedFor, votedAt
-```
+A class election app that signs users in with Firebase Authentication, and each user's data is saved in Cloud Firestore under their own id, so two accounts never see each other's data, and every change appears live.
 
 ## Screenshots
-
-| Login | Validation |
-|---|---|
-| ![Login](screenshots/login.png) | ![Validation](screenshots/login-validation.png) |
-
-| Vote | Results |
-|---|---|
-| ![Vote](screenshots/vote.png) | ![Results](screenshots/results_winner.png) |
-
-| Tie | Candidates |
-|---|---|
-| ![Tie](screenshots/results-tie.png) | ![Candidates](screenshots/candidates.png) |
-
-## Tech stack
-
-- Flutter + Dart
-- Firebase Authentication (Email/Password)
-- Cloud Firestore
-- Material 3
+![Login](screenshots/login.png)
+![Login validation](screenshots/login-validation.png)
+![Vote](screenshots/vote.png)
+![Results](screenshots/results_winner.png)
+![Tie](screenshots/results-tie.png)
+![Candidates](screenshots/candidates.png)
